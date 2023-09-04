@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { icons } from 'src/app/shared/interfaces/icon.iterface';
 
 @Component({
   selector: 'app-filter',
@@ -6,5 +7,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./filter.component.scss']
 })
 export class FilterComponent {
+  constructor(){}
+  icons : icons[]=[];
+  
 
 }
